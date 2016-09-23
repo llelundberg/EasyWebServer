@@ -11,3 +11,6 @@ by the client.
 
 It will also do some very basic validation of the incoming reguest and respond with a 
 404 Not Found message if the URL was not implemented.
+
+See http://techblog.se/2016/09/22/easywebserver/ for a quick taste.
+
