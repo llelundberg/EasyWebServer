@@ -108,8 +108,8 @@ void EasyWebServer::serveUrl(const char* url, EwsRequestHandler func, const EwsC
   
   
   if(client){
-	Serial.print("serveUrl");
-	Serial.print(url);
+	/*Serial.print("serveUrl");
+	Serial.println(url);*/
   
     // Compare the url parameter with the url in the http request.
     if(strcmp(this->url,url)==0){ 
